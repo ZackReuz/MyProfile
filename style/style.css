@@ -110,7 +110,6 @@
         }
         
         #button {
-            background-color: white;
             margin: 50px 20px 20px 20px;
             height: 40px;
             width: 90%;
@@ -161,7 +160,7 @@
             color: azure;
         }
         
-        @media only screen and (max-width: 800px) {
+        @media only screen and (max-width: 768px) {
             body {
                 background: rgb(32, 32, 32);
                 display: flex;
@@ -170,7 +169,7 @@
             #card {
                 background-color: #fff;
                 width: 400px;
-                height: 70vh;
+                height: 80vh;
                 display: flex;
                 margin-top: 15vh;
                 align-items: center;
@@ -190,18 +189,17 @@
                 height: 100px;
                 width: 100px;
                 align-self: center;
+                padding: 30px 0px 30px 0px;
             }
             #details {
-                height: 90%;
+                height: 80%;
                 width: 50%;
                 background-color: ;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: flex-start;
             }
             #name {
-                background-color: #fff;
                 margin: 20px;
                 display: flex;
                 width: 100%;
@@ -265,7 +263,6 @@
                 justify-content: center;
             }
             #buttonsgit {
-                background-color: rgb(241, 240, 240);
                 border-radius: 5px;
                 color: rgb(16, 21, 37);
                 padding: 9px 23px;
